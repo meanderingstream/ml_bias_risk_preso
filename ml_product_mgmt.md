@@ -140,7 +140,7 @@ http://www.fast.ai/2018/08/07/hbr-bias-algorithms/
 
 -- You supply the Answers 
 
--- Creating Answers are expensive
+-- Creating Answers is expensive
 
 * Unsupervised
 
@@ -254,7 +254,7 @@ https://arxiv.org/ftp/arxiv/papers/1505/1505.01257.pdf
 
 ## Transfer Training and Dataset Bias
 
-* Reduces the need to larger datasets
+* Reduces the need for larger datasets
 
 * Try to focus on quality data consistent with Production Data
 
@@ -335,7 +335,7 @@ Experienced and Senior people after deploy
 
 ---
 
-# Audit production
+## Audit production
 
 * Something goes wrong
 

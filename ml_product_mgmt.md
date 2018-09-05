@@ -18,20 +18,35 @@ https://ai-tampa-study-group.github.io/meetings/
 ## Tampa.ai
 
 Looking for Presenters
----
-
-## Food
 
 ---
 
-## Interesting Events in AI
+## Machine Learning Product Management
+### Bias and Risk Management
 
----
-
-# Machine Learning Product Management
-## Bias and Risk Management
+https://github.com/meanderingstream/ml_bias_risk_preso
 
 Scott Mueller
+
+---
+## Presentation Approach
+
+* Thoughts and lessons
+
+* Rachel Thomas
+
+* Harish Doddi
+
+* Immuta White Paper
+
+---
+## Fast.ai
+
+www.fast.ai
+
+* Strip Audio from Video --> Podcast
+
+* https://medium.com/@hiromi_suenaga
 
 ---
 
@@ -58,7 +73,7 @@ Developed Algorithm
 
 ---
 
-## What can go wrong
+## What can go wrong?
 
 ---
 
@@ -87,11 +102,15 @@ Developed Algorithm
 
 ## Misuse of Algorithms
 
+Rachel Thomas
+
 * Algorithms without appeals method or explanation
 
 * Algorithms used at larger than human focused scale
 
 -- Bias in human decision process, scaled
+
+---
 
 * Users may not understand how they can override the algorithm
 
@@ -110,8 +129,8 @@ http://www.fast.ai/2018/08/07/hbr-bias-algorithms/
 ---
 
 ## Training vs. Inference
-<img src="./TVT_label.png"  width="200">
-<img src="./slice_of_bread.jpg"  width="200">
+<img src="./TVT_label.png"  width="600">
+<img src="./slice_of_bread.jpg"  width="40">
 
 ---
 
@@ -181,26 +200,41 @@ Algorithm + Training Data + Training Effort
 
 ---
 
-## Train own model
-
-* Fast.ai techniques to train ImageNet
-
-<Need image of results>
-
----
-
 ## Transfer Training on Sequence Data
 
 * Business Objective: Some event or categorization from sequence
 
 -- Adverse Twitter Posts
 
-* Natural Language Processing - Text
+---
 
-* Train to predict the next word(s) in sentence, Language Model
+## NLP Transfer Training
 
-* Use above model to read and classify Twitter Posts
--- Lesson 10 of Fast.ai
+* Language Model: Train to predict the next word(s) in sentence, Language Model
+
+<img src="./NLP_TransferLearning.png"  width="800">
+
+
+---
+
+## Train own model
+
+* Fast.ai techniques to train ImageNet
+
+<img src="./Dawnbench_ImageNet_Train.png"  width="700">
+
+---
+
+## Training Cost
+
+<img src="./Dawnbench_ImageNet_Cost.png"  width="700">
+
+---
+## Current State of the Art
+
+18 Minutes, $40
+
+http://www.fast.ai/2018/08/10/fastai-diu-imagenet/
 
 ---
 
@@ -230,9 +264,7 @@ https://arxiv.org/ftp/arxiv/papers/1505/1505.01257.pdf
 
 * Differential Privacy
 
---  Aims to provide means to maximize the accuracy of queries from statistical databases while minimizing the chances of identifying its records.
-
--- Differential privacy mechanisms operate by introducing randomness into the results of queries on underlying confidential data. Because of the randomness, an observer of the queries faces ambiguity when trying to reconstruct what the confidential data must have been in order to produce the observed results.
+-- Introducing randomness into the results of queries on underlying confidential data. Because of the randomness, an observer of the queries faces ambiguity when trying to reconstruct
 
 ---
 
@@ -260,6 +292,8 @@ https://arxiv.org/ftp/arxiv/papers/1505/1505.01257.pdf
 
 ## Simplified ML Lifecycle Management
 
+Harish Doddi
+
 https://www.oreilly.com/ideas/simplifying-machine-learning-lifecycle-management
 
 ---
@@ -284,13 +318,13 @@ Tech is changing rapidly
 
 ---
 
-## Real works starts after model in production
+## Real work starts after model in production
 
 * Central Team for ML Infrastructure
 
 * Deploy, Operate, Monitor
 
-Experience and Senior people after deploy
+Experienced and Senior people after deploy
 
 ---
 
@@ -333,23 +367,13 @@ https://www.oreilly.com/ideas/managing-risk-in-machine-learning-models
 
 ---
 
-* Lines of Defense
+## Lines of Defense
 
-1 Documenting objectives and assumption
+* Document objectives and assumption
 
-  1 data owners and data scientists
+* data quality assessments, docs, asumptions
 
-2 validators 
-
-  1 data quality assessments
-
-  2 model documentation
-
-  3 key assumptions 
-
-  4 methodologies
-
-3 periodic reviews of assumptions in model
+* periodic reviews of assumptions in model
 
 ---
 
@@ -367,7 +391,9 @@ https://www.oreilly.com/ideas/managing-risk-in-machine-learning-models
 
 * documented and monitored
 * Personally identifiable info 
+  
   -- where included and why?
+  
   -- how is it protected
 ---
 
@@ -376,7 +402,7 @@ https://www.oreilly.com/ideas/managing-risk-in-machine-learning-models
 completeness, accuracy, consistency, timeliness, duplication, validity, availability, provenance
 
 ---
-# Encapulate model from environment
+## Encapulate model from environment
 
 Documented and Testable
 
@@ -441,6 +467,15 @@ Changes to models or underlying data occur over time.
 
 Discoverable changes
 
+---
+
+## Further Resources
+
+https://towardsdatascience.com/machine-learning/home
+
+https://twitter.com/jeremyphoward
+
+http://forums.fast.ai/
 
 
 
